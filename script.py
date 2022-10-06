@@ -6,6 +6,6 @@ def fill_list(une_liste):
 	liste_remplie : [10, 11, 12, 16, 8, 14, 20]
 	"""
 
-	#TO DO : Ecrire cette fonction
+	#TO DO : Ecrire cette fonction (test)
 
 	return liste_remplie
