@@ -7,5 +7,11 @@ def fill_list(une_liste):
 	"""
 
 	#TO DO : Ecrire cette fonction
+	une_liste=dropna(une_liste)
+	j=0
+	for i in range(len(une_liste)):
+		liste_remplie=liste_remplie.append(une_liste[i])
+		if i ne 
+		liste_remplie=liste_remplie.append((une_liste[i]+une_liste[i+1])/2)
 
 	return liste_remplie
