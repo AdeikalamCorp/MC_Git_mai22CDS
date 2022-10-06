@@ -1,3 +1,4 @@
+import pandas as pd
 
 def fill_list(une_liste):
 	"""
@@ -5,7 +6,14 @@ def fill_list(une_liste):
 	
 	liste_remplie : [10, 11, 12, 16, 8, 14, 20]
 	"""
+	
+	s = pd.Series(une_liste)
 
-	#TO DO : Ecrire cette fonction
+	s1 = s.ffill()
+	s2 = s.bfill()
+	
+	s = (s1 + s2)/2
+	
+	liste_remplie = list(s.values)
 
 	return liste_remplie
