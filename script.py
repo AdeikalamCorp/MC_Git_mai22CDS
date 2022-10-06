@@ -8,6 +8,6 @@ def fill_list(une_liste):
 
 	#TO DO : Ecrire cette fonction
 
-	une_liste
+	une_liste.na
 
 	return liste_remplie
