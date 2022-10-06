@@ -26,4 +26,6 @@ def fill_list(une_liste):
 	
 	liste_remplie = list(s.values)
 
+	une_liste.na
+
 	return liste_remplie
